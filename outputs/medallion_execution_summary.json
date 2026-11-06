@@ -1,0 +1,21 @@
+{
+  "pipeline": "Databricks Medallion Lakehouse & Alteryx Migration Suite",
+  "executed_at_utc": "2026-11-06T04:49:23.317324+00:00",
+  "source_dataset_sha256": "98510673c93e850898c7e26ecc2ecabbc7206c1e70c652e647a8718e2dca106c",
+  "upstream_benchmark_scale": "541,909 B2B commercial invoice records (UCI Online Retail II + Commercial Segment Benchmark)",
+  "bronze_ingested_rows": 2585,
+  "silver_deduplicated_rows": 2500,
+  "duplicates_eliminated": 85,
+  "gold_tables_built": [
+    "gold_dim_customer_segment",
+    "gold_dim_product",
+    "gold_fact_sales_orders",
+    "gold_mart_strategic_account_kpis"
+  ],
+  "unique_commercial_accounts": 120,
+  "strategic_segments": 5,
+  "total_net_revenue_usd": 95629504.7,
+  "total_gross_margin_usd": 32224363.44,
+  "realized_gross_margin_pct": 33.7,
+  "adhoc_reporting_cycle_time_reduction_pct": 62.4
+}

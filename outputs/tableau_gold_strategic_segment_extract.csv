@@ -1,0 +1,81 @@
+segment_code,segment_name,sales_region,fiscal_quarter,active_accounts,total_orders,total_units,gross_revenue_usd,net_revenue_usd,gross_margin_usd,gross_margin_pct,avg_discount_pct,revenue_per_account_usd
+STRAT-ENERGY,Commercial Energy & Infrastructure,North America - East,2025-Q1,6,40,1007,2026060.0,1878451.1,717357.73,38.19,6.53,313075.18
+CHANNEL-DIST,Regional Channel & Wholesale Distributors,North America - East,2025-Q1,6,42,1100,1908360.0,1754927.2,456979.81,26.04,8.05,292487.87
+STRAT-ENERGY,Commercial Energy & Infrastructure,North America - South,2025-Q1,6,41,1011,1809740.0,1733914.3,647663.77,37.35,5.93,288985.72
+CHANNEL-DIST,Regional Channel & Wholesale Distributors,North America - South,2025-Q1,6,41,1050,1866640.0,1719104.5,435722.88,25.35,7.95,286517.42
+ENT-TECH,Enterprise Data Center & Cloud Facilities,North America - Central,2025-Q1,6,40,1064,1873080.0,1713918.6,714253.08,41.67,8.25,285653.1
+COMM-BLDG,Commercial Building & Automation Partners,North America - East,2025-Q1,6,42,1004,1803460.0,1680415.5,534107.68,31.78,6.76,280069.25
+CHANNEL-DIST,Regional Channel & Wholesale Distributors,North America - Central,2025-Q1,6,41,1020,1699420.0,1576982.5,409820.67,25.99,7.61,262830.42
+ENT-TECH,Enterprise Data Center & Cloud Facilities,North America - West,2025-Q1,6,38,881,1687020.0,1560943.1,626773.38,40.15,6.74,260157.18
+STRAT-ENERGY,Commercial Energy & Infrastructure,North America - Central,2025-Q1,6,42,843,1618380.0,1512742.7,567521.88,37.52,6.86,252123.78
+COMM-BLDG,Commercial Building & Automation Partners,North America - West,2025-Q1,6,34,887,1602910.0,1472704.2,466513.45,31.68,7.0,245450.7
+STRAT-IND,Strategic Industrial & Manufacturing,North America - East,2025-Q1,6,36,943,1451940.0,1321105.6,441609.77,33.43,7.89,220184.27
+STRAT-IND,Strategic Industrial & Manufacturing,North America - South,2025-Q1,6,36,859,1409150.0,1305257.9,443310.6,33.96,7.5,217542.98
+STRAT-IND,Strategic Industrial & Manufacturing,North America - West,2025-Q1,6,34,765,1390140.0,1281143.1,425549.78,33.22,7.91,213523.85
+COMM-BLDG,Commercial Building & Automation Partners,North America - South,2025-Q1,6,37,796,1359600.0,1270962.4,400428.64,31.51,6.49,211827.07
+CHANNEL-DIST,Regional Channel & Wholesale Distributors,North America - West,2025-Q1,6,37,827,1375770.0,1266117.4,335987.95,26.54,7.35,211019.57
+ENT-TECH,Enterprise Data Center & Cloud Facilities,North America - South,2025-Q1,6,37,849,1340840.0,1227965.2,508927.06,41.44,7.7,204660.87
+ENT-TECH,Enterprise Data Center & Cloud Facilities,North America - East,2025-Q1,6,34,707,1253980.0,1166604.3,481611.33,41.28,7.97,194434.05
+STRAT-IND,Strategic Industrial & Manufacturing,North America - Central,2025-Q1,6,34,765,1243820.0,1150750.5,398745.97,34.65,7.88,191791.75
+STRAT-ENERGY,Commercial Energy & Infrastructure,North America - West,2025-Q1,6,33,756,1246710.0,1146316.4,427755.53,37.32,7.61,191052.73
+COMM-BLDG,Commercial Building & Automation Partners,North America - Central,2025-Q1,6,31,704,1125980.0,1054921.8,321943.27,30.52,6.42,175820.3
+CHANNEL-DIST,Regional Channel & Wholesale Distributors,North America - South,2025-Q2,6,47,1067,1835620.0,1715460.7,444689.71,25.92,6.45,285910.12
+COMM-BLDG,Commercial Building & Automation Partners,North America - West,2025-Q2,6,39,1012,1852170.0,1709204.6,531204.63,31.08,8.0,284867.43
+STRAT-ENERGY,Commercial Energy & Infrastructure,North America - Central,2025-Q2,6,37,949,1753400.0,1613220.3,627282.38,38.88,7.68,268870.05
+CHANNEL-DIST,Regional Channel & Wholesale Distributors,North America - West,2025-Q2,6,34,786,1716570.0,1579572.4,392981.08,24.88,7.76,263262.07
+STRAT-IND,Strategic Industrial & Manufacturing,North America - East,2025-Q2,6,43,1040,1702920.0,1576144.3,529271.11,33.58,7.05,262690.72
+ENT-TECH,Enterprise Data Center & Cloud Facilities,North America - South,2025-Q2,6,44,957,1632130.0,1513421.3,618560.24,40.87,7.02,252236.88
+COMM-BLDG,Commercial Building & Automation Partners,North America - East,2025-Q2,6,39,935,1603120.0,1497939.6,474851.52,31.7,6.92,249656.6
+CHANNEL-DIST,Regional Channel & Wholesale Distributors,North America - East,2025-Q2,6,37,923,1626500.0,1467082.6,381825.4,26.03,8.38,244513.77
+CHANNEL-DIST,Regional Channel & Wholesale Distributors,North America - Central,2025-Q2,6,43,1040,1594610.0,1457354.8,378457.79,25.97,7.44,242892.47
+COMM-BLDG,Commercial Building & Automation Partners,North America - South,2025-Q2,6,35,874,1537690.0,1449292.9,452553.77,31.23,6.14,241548.82
+ENT-TECH,Enterprise Data Center & Cloud Facilities,North America - East,2025-Q2,6,38,907,1548870.0,1433380.8,583420.12,40.7,7.63,238896.8
+ENT-TECH,Enterprise Data Center & Cloud Facilities,North America - Central,2025-Q2,6,34,888,1509720.0,1384180.2,560805.97,40.52,8.5,230696.7
+STRAT-IND,Strategic Industrial & Manufacturing,North America - South,2025-Q2,6,30,780,1364170.0,1255837.7,431343.15,34.35,7.87,209306.28
+ENT-TECH,Enterprise Data Center & Cloud Facilities,North America - West,2025-Q2,6,34,770,1335520.0,1220940.5,501142.98,41.05,8.15,203490.08
+COMM-BLDG,Commercial Building & Automation Partners,North America - Central,2025-Q2,6,38,852,1292000.0,1205538.6,378896.04,31.43,6.5,200923.1
+STRAT-ENERGY,Commercial Energy & Infrastructure,North America - East,2025-Q2,6,30,698,1211510.0,1142281.5,429813.16,37.63,6.63,190380.25
+STRAT-IND,Strategic Industrial & Manufacturing,North America - West,2025-Q2,6,32,743,1190300.0,1103593.1,381246.82,34.55,8.09,183932.18
+STRAT-ENERGY,Commercial Energy & Infrastructure,North America - South,2025-Q2,6,26,629,1111920.0,1053117.7,394062.74,37.42,6.88,175519.62
+STRAT-ENERGY,Commercial Energy & Infrastructure,North America - West,2025-Q2,6,35,742,1126570.0,1051491.6,395926.15,37.65,7.23,175248.6
+STRAT-IND,Strategic Industrial & Manufacturing,North America - Central,2025-Q2,6,26,648,1059210.0,977883.2,338699.97,34.64,6.92,162980.53
+CHANNEL-DIST,Regional Channel & Wholesale Distributors,North America - West,2025-Q3,6,45,1128,2198070.0,2027977.0,531117.93,26.19,7.82,337996.17
+COMM-BLDG,Commercial Building & Automation Partners,North America - West,2025-Q3,6,47,1072,1990740.0,1836749.4,555999.56,30.27,7.85,306124.9
+STRAT-IND,Strategic Industrial & Manufacturing,North America - East,2025-Q3,6,46,1106,1947070.0,1808991.7,612552.42,33.86,6.91,301498.62
+COMM-BLDG,Commercial Building & Automation Partners,North America - East,2025-Q3,6,40,1014,1899480.0,1765077.4,548115.67,31.05,6.88,294179.57
+COMM-BLDG,Commercial Building & Automation Partners,North America - Central,2025-Q3,6,44,1051,1923890.0,1761079.7,550153.0,31.24,7.68,293513.28
+STRAT-ENERGY,Commercial Energy & Infrastructure,North America - East,2025-Q3,6,45,1038,1890050.0,1751680.1,664143.76,37.91,7.11,291946.68
+STRAT-IND,Strategic Industrial & Manufacturing,North America - West,2025-Q3,6,46,1047,1821440.0,1684214.4,564998.47,33.55,7.76,280702.4
+COMM-BLDG,Commercial Building & Automation Partners,North America - South,2025-Q3,6,46,1134,1777600.0,1633616.3,514800.19,31.51,7.35,272269.38
+STRAT-ENERGY,Commercial Energy & Infrastructure,North America - West,2025-Q3,6,44,1015,1761060.0,1624630.1,603324.09,37.14,7.68,270771.68
+STRAT-IND,Strategic Industrial & Manufacturing,North America - Central,2025-Q3,6,48,1001,1727950.0,1617095.4,549573.2,33.99,6.98,269515.9
+CHANNEL-DIST,Regional Channel & Wholesale Distributors,North America - East,2025-Q3,6,38,886,1689800.0,1571399.1,392241.78,24.96,7.24,261899.85
+STRAT-ENERGY,Commercial Energy & Infrastructure,North America - South,2025-Q3,6,41,842,1655440.0,1530316.5,588312.9,38.44,8.0,255052.75
+STRAT-IND,Strategic Industrial & Manufacturing,North America - South,2025-Q3,6,35,789,1517350.0,1420513.6,496407.82,34.95,6.83,236752.27
+ENT-TECH,Enterprise Data Center & Cloud Facilities,North America - East,2025-Q3,6,30,773,1479470.0,1357127.2,553639.95,40.79,7.1,226187.87
+ENT-TECH,Enterprise Data Center & Cloud Facilities,North America - West,2025-Q3,6,33,808,1422390.0,1323046.1,543761.91,41.1,6.97,220507.68
+ENT-TECH,Enterprise Data Center & Cloud Facilities,North America - Central,2025-Q3,6,35,821,1398570.0,1298723.4,538902.87,41.49,7.77,216453.9
+CHANNEL-DIST,Regional Channel & Wholesale Distributors,North America - South,2025-Q3,6,31,728,1370580.0,1285151.4,333085.6,25.92,7.55,214191.9
+STRAT-ENERGY,Commercial Energy & Infrastructure,North America - Central,2025-Q3,6,25,674,1208760.0,1114071.8,420580.05,37.75,9.0,185678.63
+CHANNEL-DIST,Regional Channel & Wholesale Distributors,North America - Central,2025-Q3,6,33,718,1122940.0,1054516.3,259799.32,24.64,6.52,175752.72
+ENT-TECH,Enterprise Data Center & Cloud Facilities,North America - South,2025-Q3,6,32,784,1116820.0,1041603.5,427036.47,41.0,7.28,173600.58
+STRAT-IND,Strategic Industrial & Manufacturing,North America - South,2025-Q4,5,20,450,766930.0,718452.9,247674.4,34.47,7.95,143690.58
+CHANNEL-DIST,Regional Channel & Wholesale Distributors,North America - East,2025-Q4,5,20,369,705280.0,657515.2,177261.75,26.96,8.85,131503.04
+CHANNEL-DIST,Regional Channel & Wholesale Distributors,North America - West,2025-Q4,5,16,390,734050.0,656723.3,170629.93,25.98,10.63,131344.66
+ENT-TECH,Enterprise Data Center & Cloud Facilities,North America - East,2025-Q4,6,20,450,699260.0,650910.6,264668.89,40.66,7.35,108485.1
+STRAT-IND,Strategic Industrial & Manufacturing,North America - East,2025-Q4,6,14,314,697060.0,640747.3,213872.12,33.38,7.43,106791.22
+COMM-BLDG,Commercial Building & Automation Partners,North America - Central,2025-Q4,6,17,399,680940.0,620799.2,188975.19,30.44,9.0,103466.53
+ENT-TECH,Enterprise Data Center & Cloud Facilities,North America - Central,2025-Q4,5,12,275,552040.0,498963.2,204083.89,40.9,7.0,99792.64
+CHANNEL-DIST,Regional Channel & Wholesale Distributors,North America - South,2025-Q4,6,14,253,504320.0,459225.6,120170.03,26.17,7.79,76537.6
+STRAT-ENERGY,Commercial Energy & Infrastructure,North America - South,2025-Q4,6,10,233,470780.0,431905.0,159548.88,36.94,8.5,71984.17
+COMM-BLDG,Commercial Building & Automation Partners,North America - East,2025-Q4,6,11,257,467990.0,430804.2,136649.14,31.72,8.91,71800.7
+STRAT-IND,Strategic Industrial & Manufacturing,North America - West,2025-Q4,5,12,260,440750.0,416892.4,140458.75,33.69,5.25,83378.48
+ENT-TECH,Enterprise Data Center & Cloud Facilities,North America - West,2025-Q4,5,11,215,441340.0,412370.0,163316.21,39.6,7.27,82474.0
+COMM-BLDG,Commercial Building & Automation Partners,North America - South,2025-Q4,5,10,279,438820.0,411517.4,127648.38,31.02,7.1,82303.48
+STRAT-ENERGY,Commercial Energy & Infrastructure,North America - East,2025-Q4,5,10,204,341160.0,324194.1,124592.77,38.43,4.6,64838.82
+STRAT-ENERGY,Commercial Energy & Infrastructure,North America - Central,2025-Q4,3,7,165,341320.0,312715.0,120601.1,38.57,7.86,104238.33
+COMM-BLDG,Commercial Building & Automation Partners,North America - West,2025-Q4,5,6,190,308970.0,294528.9,94013.28,31.92,5.17,58905.78
+STRAT-IND,Strategic Industrial & Manufacturing,North America - Central,2025-Q4,6,14,244,302860.0,289606.6,99419.25,34.33,5.29,48267.77
+STRAT-ENERGY,Commercial Energy & Infrastructure,North America - West,2025-Q4,5,5,152,273870.0,258694.1,96215.52,37.19,6.0,51738.82
+CHANNEL-DIST,Regional Channel & Wholesale Distributors,North America - Central,2025-Q4,3,7,158,262770.0,235934.1,57644.62,24.43,10.43,78644.7
+ENT-TECH,Enterprise Data Center & Cloud Facilities,North America - South,2025-Q4,5,9,156,208990.0,197238.5,78753.42,39.93,5.89,39447.7

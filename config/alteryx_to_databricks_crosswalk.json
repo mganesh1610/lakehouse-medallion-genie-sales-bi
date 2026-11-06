@@ -1,0 +1,37 @@
+{
+  "migration_blueprint": "Alteryx Designer Legacy Workflows -> Databricks Medallion SQL & PySpark Lakehouse",
+  "legacy_workflows_retired": 14,
+  "reusable_gold_marts_created": 4,
+  "node_mappings": [
+    {
+      "alteryx_tool": "Input Data (.yxdb / .xlsx)",
+      "databricks_equivalent": "Bronze Auto Loader / COPY INTO bronze_raw_invoices",
+      "governance_control": "SHA-256 file hash + source_system lineage tag"
+    },
+    {
+      "alteryx_tool": "Select & Cleanse (TRIM / Case)",
+      "databricks_equivalent": "Silver SQL TRIM(UPPER(account_id)) & explicit CAST",
+      "governance_control": "Unity Catalog schema enforcement"
+    },
+    {
+      "alteryx_tool": "Unique (De-duplication)",
+      "databricks_equivalent": "Silver CTE ROW_NUMBER() OVER (PARTITION BY invoice_no, product_id ORDER BY order_date)",
+      "governance_control": "Zero duplicate invoice grain check"
+    },
+    {
+      "alteryx_tool": "Join & Find Replace",
+      "databricks_equivalent": "Silver-to-Gold Star Schema INNER/LEFT JOIN on governed surrogate keys",
+      "governance_control": "Zero orphan foreign-key constraint"
+    },
+    {
+      "alteryx_tool": "Formula & Summarize",
+      "databricks_equivalent": "Gold KPI Aggregations (Net Revenue, Gross Margin %, RFM Score, HHI Concentration)",
+      "governance_control": "Certified metric dictionary in governed catalog"
+    },
+    {
+      "alteryx_tool": "Output Data (Tableau Hyper / TDE)",
+      "databricks_equivalent": "Gold Delta / SQL Views feeding Tableau & Power BI DirectQuery",
+      "governance_control": "Automated SLA freshness & row-count parity gate"
+    }
+  ]
+}

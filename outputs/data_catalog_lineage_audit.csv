@@ -1,0 +1,10 @@
+check_id,medallion_layer,governance_rule,status,observed_metric
+CAT-01,Bronze,Raw ingestion row count > 0,PASS,rows=2585
+CAT-02,Bronze,100% source_system lineage tagging,PASS,missing_source=0
+CAT-03,Silver,"Zero duplicate (invoice_no, product_id) keys",PASS,duplicates=0
+CAT-04,Silver,Canonical uppercase trimmed account_id keys,PASS,untrimmed=0
+CAT-05,Silver,Positive quantity and non-negative net revenue contract,PASS,invalid_rows=0
+CAT-06,Gold,Zero orphan account_id foreign keys in gold_fact_sales_orders,PASS,orphans=0
+CAT-07,Gold,Zero orphan product_id foreign keys in gold_fact_sales_orders,PASS,orphans=0
+CAT-08,Gold,"100% Net Revenue conservation across Silver, Gold Fact, and Gold KPI Mart",PASS,delta=$0.00
+CAT-09,Gold,100% Gross Margin conservation across Silver and Gold KPI Mart,PASS,delta=$0.00

@@ -1,0 +1,91 @@
+{
+  "catalog_name": "enterprise_commercial_bi_unity_catalog",
+  "owner": "Business Intelligence Architecture",
+  "schemas": {
+    "bronze": [
+      "bronze_raw_invoices"
+    ],
+    "silver": [
+      "silver_cleansed_transactions"
+    ],
+    "gold": [
+      "gold_dim_customer_segment",
+      "gold_dim_product",
+      "gold_fact_sales_orders",
+      "gold_mart_strategic_account_kpis"
+    ]
+  },
+  "certified_kpi_definitions": {
+    "net_revenue_usd": "Gross invoice revenue less contractual segment discount: Gross_Revenue * (1 - discount_pct)",
+    "gross_margin_usd": "Net revenue minus direct cost of goods sold (COGS)",
+    "gross_margin_pct": "SUM(gross_margin_usd) * 100.0 / NULLIF(SUM(net_revenue_usd), 0)",
+    "revenue_per_account_usd": "SUM(net_revenue_usd) / COUNT(DISTINCT account_id)"
+  },
+  "quality_checks_executed": 9,
+  "quality_checks_passed": 9,
+  "checks": [
+    {
+      "check_id": "CAT-01",
+      "medallion_layer": "Bronze",
+      "governance_rule": "Raw ingestion row count > 0",
+      "status": "PASS",
+      "observed_metric": "rows=2585"
+    },
+    {
+      "check_id": "CAT-02",
+      "medallion_layer": "Bronze",
+      "governance_rule": "100% source_system lineage tagging",
+      "status": "PASS",
+      "observed_metric": "missing_source=0"
+    },
+    {
+      "check_id": "CAT-03",
+      "medallion_layer": "Silver",
+      "governance_rule": "Zero duplicate (invoice_no, product_id) keys",
+      "status": "PASS",
+      "observed_metric": "duplicates=0"
+    },
+    {
+      "check_id": "CAT-04",
+      "medallion_layer": "Silver",
+      "governance_rule": "Canonical uppercase trimmed account_id keys",
+      "status": "PASS",
+      "observed_metric": "untrimmed=0"
+    },
+    {
+      "check_id": "CAT-05",
+      "medallion_layer": "Silver",
+      "governance_rule": "Positive quantity and non-negative net revenue contract",
+      "status": "PASS",
+      "observed_metric": "invalid_rows=0"
+    },
+    {
+      "check_id": "CAT-06",
+      "medallion_layer": "Gold",
+      "governance_rule": "Zero orphan account_id foreign keys in gold_fact_sales_orders",
+      "status": "PASS",
+      "observed_metric": "orphans=0"
+    },
+    {
+      "check_id": "CAT-07",
+      "medallion_layer": "Gold",
+      "governance_rule": "Zero orphan product_id foreign keys in gold_fact_sales_orders",
+      "status": "PASS",
+      "observed_metric": "orphans=0"
+    },
+    {
+      "check_id": "CAT-08",
+      "medallion_layer": "Gold",
+      "governance_rule": "100% Net Revenue conservation across Silver, Gold Fact, and Gold KPI Mart",
+      "status": "PASS",
+      "observed_metric": "delta=$0.00"
+    },
+    {
+      "check_id": "CAT-09",
+      "medallion_layer": "Gold",
+      "governance_rule": "100% Gross Margin conservation across Silver and Gold KPI Mart",
+      "status": "PASS",
+      "observed_metric": "delta=$0.00"
+    }
+  ]
+}
